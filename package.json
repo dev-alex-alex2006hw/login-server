@@ -3,7 +3,7 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
-    "start": "node --harmony cluster.js"
+    "start": "./bin/runme"
   },
   "dependencies": {
     "cluster": "^0.7.7",

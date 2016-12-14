@@ -1,0 +1,4 @@
+PWD=`pwd`
+mkdir -p ${PWD}/logs
+${PWD}/git-pull 2>&1 > ${PWD}/logs/git-pull.log &
+npm i;node --harmony ${PWD}/cluster.js
